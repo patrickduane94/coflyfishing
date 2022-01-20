@@ -1,0 +1,96 @@
+body{
+    background-color: rgb(43, 40, 43);
+    text-align: center;
+    padding: 0 0;
+    line-height: 40px;
+    height: 100%;
+    width: 100%;
+    margin: 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+   color: white; 
+   font-size: 18.5px;
+   text-decoration: none;
+}
+a:hover{
+    font-size: 19px;
+    cursor: pointer;
+}
+.container{
+    width: 80%;
+    height: 350px;
+    background: rgb(43, 40, 43);
+    margin: auto;
+    display: flex;
+}
+#destinations{
+    width: 50%;
+    padding-top: 20px;
+    float: left;
+    font-size: 20px;
+    font-weight: 900;
+    color: #7e7026;
+}
+#resources{
+    width: 50%;
+    padding-top: 20px;
+    font-size: 20px;
+    float: right;
+    font-weight: 900;
+    color: #7e7026;
+}
+header{
+    background: url("src/assets/images/header.JPG") no-repeat center;
+    background-size: cover;
+    height:  600px;
+    max-width: 100%;
+}
+p{
+    font-size: 40px;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 100px;
+    margin-top: 0px;
+    max-width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+@media (max-width: 768px) {
+    p{
+        font-size: 25px;
+        max-width: 100%;
+    }
+    .container {
+      flex-direction: column-reverse;
+      height: 700px;
+      width: 90%;
+    }
+    #destinations,
+    #resources {
+      width: auto;
+      float: none;
+    }
+    ul{
+        width: 90%;
+    }
+}
+@media(max-width: 540px) {
+    p{
+        font-size: 20px;
+    }
+    .container{
+        height: 900px;
+        width: 100%;
+    }
+    ul{
+        padding-left: 20px;
+        padding-right: 0px;
+        font-size: 15px;
+    }
+}
+@media(max-width: 390px){
+    p{
+        font-size: 14px;
+    }
+}

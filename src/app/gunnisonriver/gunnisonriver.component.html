@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<header>
+    <button routerLink="/home" style="font-size: 35px; background-color: lightseagreen;"><i class="fa fa-home"></i></button>
+</header>
+<body>
+<h1 id="gunnisonriver" style="text-align: center;">GUNNISON RIVER</h1>
+<div class="row">
+    <span id="pic"></span>
+</div>
+<section class="container">
+<div id="flow" class="row">
+    <h3 id="streamflow">Most Recent Streamflow Data</h3>
+    <p>Black Canyon: 
+        <input type="number" [value]="flows1" style="width: 50px;" readonly> cfs
+    </p>
+    <p>At Delta:
+        <input type="number" [value]="flows2" style="width: 50px;" readonly> cfs
+    </p>
+</div>
+<div id="map">
+    <a href="https://cpw.state.co.us/placestogo/Pages/FishingStatewideMaps.aspx">GUNNISON RIVER MAPS</a>
+</div>
+</section>
+<p id="riverbio">The Gunnison River forms at the confluence of the East River and Taylor River near the 
+    town of Almont. From Almont it flows 23 miles to Blue Mesa Reservoir. This uppermost section of the Gunnison
+    holds plenty of wild brown and rainbow trout. It can be waded or floated if the flow is sufficient. There is some private water
+    here that can only be accessed by boat. Below the outlet of Blue Mesa, the Gunnison feeds two more reservoirs (Morrow Point and Crystal)
+    before entering the Black Canyon. Just above the canyon is East Portal, a much easier access point to the Gunnison. Getting into the Black Canyon 
+    will require a steep hike, but the fishing is well worth it. Plenty of brown and rainbow trout live in the canyon and are not as pressured
+    as the trout in many of Colorado's other popular rivers. The Gunnison River in Black Canyon has a prolific salmonfly hatch (a large stonefly) in late spring. 
+    Trout will eat salmonflies off the surface with reckless abandon and can provide an angler with some of the best dry fly fishing anywhere.<br><br>
+    <span id="blackcanyon"></span><br>
+    Below the Black Canyon is the more accessible Gunnison Gorge. The quality of the fishing here is also excellent. The Gunnison can hold up to 10,000 trout per 
+    mile in the Black Canyon and downstream through Gunnison Gorge. The river holds trout for many more miles, including downstream of the town of Delta.
+  </p>
+  <br>
+</body>

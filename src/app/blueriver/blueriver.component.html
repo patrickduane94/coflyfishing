@@ -1,0 +1,48 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<header>
+    <button routerLink="/home" style="font-size: 35px; background-color: lightseagreen;"><i class="fa fa-home"></i></button>
+</header>
+<body>
+<h1 id="blueriver" style="text-align: center;">BLUE RIVER</h1>
+<div class="row">
+    <span id="pic"></span>
+</div>
+<section class="container">
+<div id="flow">
+    <h3 id="streamflow">Most Recent Streamflow Data</h3>
+    <p>Above Dillon Reservoir: 
+        <input type="number" [value]="flows1" style="width: 50px;" readonly> cfs
+    </p>
+    <p>Below Dillon Reservoir:
+        <input type="number" [value]="flows2" style="width: 50px;" readonly> cfs
+    </p>
+    <p>Below Green Mountain Reservoir:
+        <input type="number" [value]="flows3" style="width: 50px;" readonly> cfs
+    </p>
+</div>
+<div id="map">
+    <a href="https://diyflyfishing.com/wp-content/uploads/2017/10/Blue-River-Basing-Fishing-Regulations.jpg">BLUE RIVER MAP</a>
+</div>
+</section>
+<p id="riverbio">The Blue River begins near Breckenridge and flows north to Kremmling where it meets the Colorado River. 
+    Along its path it enters and exits Dillon Reservoir and Green Mountain Reservoir. The Blue River is usually divided into three sections:
+     the upper river above Dillon Reservoir, the middle section between Dillon and Green Mountain Reservoir, 
+     and the lower section below Green Mountain Reservoir north to Kremmling. The upper river is a small stream with plenty of public access around Breckenridge. 
+     There is a decent population of small to medium sized brown and rainbow trout, and some brook trout near the headwaters south of Breckenridge.
+     <br><br>Most anglers are drawn to the middle and lower river, however. The tailwater below Dillon Reservoir runs directly through Silverthorne. 
+     It has suffered from inconsistent flows coming out of Dillon Dam and a lack of aquatic insects partly due to the very cold water coming from the bottom 
+     of Dillon Dam year round. There is very little natural reproduction in the Blue River around Silverthorne. This section is stocked heavily with some 
+     large rainbows in the 16-24" range every year, usually during the winter months.<br><br> 
+     <span id="silverthorne"></span><br>
+     The Blue River below Green Mountain Reservoir is the second tailwater section of the Blue River. The bug life
+     is much better in this section of the river. There is a strong population of wild rainbow and brown trout from the dam down 
+     to the confluence with the Colorado River. Trout exceeding 20 inches are common. Public access is limited and many anglers float through the private stretches by 
+     putting in at the public access below Green Mountain Reservoir, which extends for about three miles. Private land owners have stocked and fed their own trout for 
+     years and have grown some very large fish. There is also some public access below the initial three miles around and between the private
+     water, so anglers should be careful not to trespass. This section of the Blue can be very productive for anglers both wading and floating.
+     <br><br>
+     <span id="lowerblue1"></span><br>
+     <span id="lowerblue2"></span><br>
+  </p>
+</body>

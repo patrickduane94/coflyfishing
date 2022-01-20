@@ -1,0 +1,117 @@
+header{
+    background-color: rgb(43, 40, 43);
+    margin-bottom: 0;
+}
+body{
+    background-color: rgb(43, 40, 43);
+    color: white;
+    margin: 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#riverbio{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+#gunnisonriver{
+    font-size: 50px;
+    font-weight: 900;
+    color: #7e7026;
+    margin-top: 0px;
+}
+#pic{
+    background: url("src/assets/images/homepage.JPG") no-repeat center;
+    width: 600px;
+    height: 450px;
+    display: block;
+    margin: auto;
+}
+#blackcanyon{
+    background: url("src/assets/images/blackcanyon.JPG") no-repeat center;
+    width: 450px;
+    height: 700px;
+    display: block;
+    margin: auto;
+}
+input{
+    font-weight: bold;
+    font-size: 15px;
+}
+a{
+    color: rgb(253, 253, 186);
+    font-size: 25px;
+}
+.container{
+    width: 80%;
+    height: 180px;
+    background: rgb(43, 40, 43);
+    margin: auto;
+    padding: 10px;
+}
+#flow{
+    width: 50%;
+    height: 180px;
+    font-size: 22px;
+    float: left;
+}
+#map{
+    width: 40%;
+    height: 180px;
+    line-height: 180px;
+    float: right;
+    margin: auto;
+    text-align: center;
+}
+#streamflow{
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 27px;
+    color: rgb(253, 253, 186);
+}
+@media(max-width: 912px){
+    #map{
+        line-height: 30px;
+    }
+}
+@media (max-width: 768px) {
+    p{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    #riverbio{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    .container {
+      padding: 0px;
+      height: 250px;
+      width: 95%;
+    }
+    #pic,
+    #blackcanyon{
+        max-width: 100%;
+        background-size: contain;
+    }
+    a{
+        font-size: 13px;
+    }
+    #map{
+        width: 50%;
+        padding-right: 0px;
+    }
+    #streamflow{
+        font-size: 15px;
+    }
+  }
+  @media(max-width: 320px){
+      #gunnisonriver{
+          font-size: 40px;
+      }
+  }

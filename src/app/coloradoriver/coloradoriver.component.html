@@ -1,0 +1,38 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<header>
+    <button routerLink="/home" style="font-size: 35px; background-color: lightseagreen;"><i class="fa fa-home"></i></button>
+</header>
+<body>
+<h1 id="coloradoriver" style="text-align: center;">COLORADO RIVER</h1>
+<div class="row">
+    <span id="pic"></span>
+</div>
+<section class="container">
+<div id="flow" class="row">
+    <h3 id="streamflow">Most Recent Streamflow Data</h3>
+    <p>At Kremmling: 
+        <input type="number" [value]="flows1" style="width: 50px;" readonly> cfs
+    </p>
+    <p>Below Glenwood Springs:
+        <input type="number" [value]="flows2" style="width: 50px;" readonly> cfs
+    </p>
+</div>
+<div id="map">
+    <a href="http://www.andrews4.com/co/colorado/">COLORADO RIVER MAPS</a>
+</div>
+</section>
+<p id="riverbio">The Colorado River begins in Rocky Mountain National Park and flows west through the mountains to
+    Utah. The Colorado has many miles of public access and is renowned for its excellent population of wild brown trout. 
+    The upper river from Granby to Parshall has plenty of pull offs along Route 40. The river here has a good mix of riffles, 
+    runs, and longer holes. Expect mostly brown trout and some rainbows in the 12-18" range. Just downstream of Kremmling the Colorado 
+    enters Gore Canyon, well known for its class V whitewater. The Colorado through Glenwood Canyon is known for its scenery and steep canyon walls
+    which run right along I-70. The river holds trout for most of its 
+    length in Colorado, even well past Glenwood Springs. The lower river is fished best from a boat because of the size but does hold some 
+    big fish. Due to the excellent public access on this river, anglers have no problem finding solitude with a short walk
+    from one of the many access points on the Colorado.<br><br>
+    <span id="gorecanyon"></span>
+    </p>
+  <br>
+</body>
+

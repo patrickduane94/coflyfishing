@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<header>
+    <button routerLink="/home" style="font-size: 35px; background-color: lightseagreen;"><i class="fa fa-home"></i></button>
+</header>
+<body>
+<h1 id="southplatteriver" style="text-align: center;">SOUTH PLATTE RIVER</h1>
+<div class="row">
+    <span id="pic"></span>
+</div>
+<section class="container">
+<div id="flow" class="row">
+    <h3 id="streamflow">Most Recent Streamflow Data</h3>
+    <p>Deckers: 
+        <input type="number" [value]="flows1" style="width: 50px;" readonly> cfs
+    </p>
+    <p>Englewood (near Denver):
+        <input type="number" [value]="flows2" style="width: 50px;" readonly> cfs
+    </p>
+</div>
+<div id="map">
+    <a href="https://cpw.state.co.us/placestogo/Pages/FishingStatewideMaps.aspx">SOUTH PLATTE RIVER MAPS</a>
+</div>
+</section>
+<p id="riverbio">The South Platte River may be the most heavily fished river in Colorado, but for good reason. There are plenty
+    of great fly fishing opportunities to be had on the South Platte. The river forms when the South Fork and Middle Fork of the Platte
+    meet in the South Park region of Colorado. The upper reaches of the river above Spinney Reservoir hold wild brown trout. The river here 
+    is a meadow stream in a wide open setting. Once the South Platte feeds into Spinney Reservoir, the river becomes a long series of tailwaters
+    all the way to Denver. <br><br> Between Spinney Reservoir and Eleven Mile Reservoir in South Park is a section of the South Platte known as the 
+    Dream Stream. This stretch holds a decent population of resident fish, mostly brown and rainbow trout with some snake river cutthroat and cutbows 
+    mixed in. The Dream Stream sees heavy angling pressure in the spring and fall when big trout from Eleven Mile Reservoir will enter the river to spawn.
+    Rainbow, cutthroat, and cutbow trout in the spring and brown trout in the fall.
+    <br><br><span id="dreamstream"></span><br>
+    <span id="cutbow"></span>
+    Below Eleven Mile Reservoir is Eleven Mile Canyon. It has a better population of trout than the Dream Stream. Expect a good mix of brown, rainbow, cutthroat, and cutbow 
+    in this section. There are some fish here that exceed the 20" mark but the majority will be in the 12-16" range. This section also receives a lot of angling pressure.
+    <br><br><span id="elevenmile"></span><br>
+    <span id="elevenmilecb"></span>
+    The South Platte flows north for about 15 miles from the bottom of Eleven Mile Canyon until entering Cheesman Reservoir. This roughly 15 mile stretch is not fished heavily, and the fishing
+    is similar to Eleven Mile Canyon. Here the river enters another lesser known canyon along the way, Wildcat Canyon. Below Cheesman Reservoir is the very well known Cheesman Canyon. It requires a 
+    short hike to get into and is about 3 miles long. This section is loaded with wild rainbow and 
+    brown trout mostly in the 14-20" range. The angling pressure is still high in Cheesman Canyon but it tends to be concentrated on the lower end where the trail in ends. Directly below Cheesman Canyon is a private
+    fishing club that extends for about one mile. Directly below the club begins a stretch referred to as "Deckers" after the unincorporated community the river flows through. Deckers can receive a comical amount of fishing
+    pressure on any day of the year because of the fish density and ease of access. Certainly not a place for an angler seeking solitude or even the ability to move around comfortably. Often it's probably best to head further north 
+    on the South Platte in this area or make the hike into Cheesman Canyon.<br><br>
+    The South Platte enters Strontia Springs Reservoir about 20 miles southwest of Denver. Below is Waterton Canyon, a decent fishery for mostly small to average sized brown trout. Bighorn Sheep can be seen here regularly. The South Platte flows for 
+    about 10 miles below Strontia Springs before feeding into Chatfield Reservoir in Littleton. Below Chatfield the South Platte is a very different fishery. The river runs through an urban setting and directly through Denver and holds walleye, smallmouth bass, largemouth bass,
+     and channel catfish in addition to stocked rainbow and brown trout. Public access is excellent and anglers often sight fish for carp when the water is clear. Crowds are generally not an issue on the Denver South Platte and it offers an angler unique fly fishing 
+     opportunities.<br><br>
+     <picture id="dsp"></picture>
+     <picture id="catfish"></picture><br>
+  </p>
+</body>

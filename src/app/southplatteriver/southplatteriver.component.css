@@ -1,0 +1,148 @@
+header{
+    background-color: rgb(43, 40, 43);
+    margin-bottom: 0;
+}
+body{
+    background-color: rgb(43, 40, 43);
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 0 0;
+}
+button:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#riverbio{
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+#southplatteriver{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    color: #7e7026;
+    margin-top: 0px;
+}
+#pic{
+    background: url("src/assets/images/cheeseman.JPG") no-repeat center;
+    width: 600px;
+    height: 620px;
+    display: block;
+    margin: auto;
+}
+.container{
+    width: 80%;
+    height: 180px;
+    background: rgb(43, 40, 43);
+    margin: auto;
+    padding: 10px;
+}
+#flow{
+    width: 50%;
+    height: 180px;
+    font-size: 22px;
+    float: left;
+}
+#map{
+    width: 45%;
+    height: 180px;
+    line-height: 180px;
+    float: right;
+    margin: auto;
+    text-align: center;
+}
+#streamflow{
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 27px;
+    color: rgb(253, 253, 186);
+}
+input{
+    font-weight: bold;
+    font-size: 15px;
+}
+#dreamstream{
+    background: url("src/assets/images/dreamstream.JPG") no-repeat center;
+    width: 600px;
+    height: 450px;
+    display: block;
+    margin: auto;
+}
+#cutbow{
+    background: url("src/assets/images/cutbow.JPG") no-repeat center;
+    width: 650px;
+    height: 400px;
+    display: block;
+    margin: auto;
+}
+#elevenmile{
+    background: url("src/assets/images/elevenmile.JPG") no-repeat center;
+    width: 650px;
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+#elevenmilecb{
+    background: url("src/assets/images/elevenmilecb.JPG") no-repeat center;
+    width: 700px;
+    height: 600px;
+    display: block;
+    margin: auto;
+}
+#dsp{
+    background: url("src/assets/images/dsp.jpeg") no-repeat center;
+    width: 700px;
+    height: 550px;
+    display: block;
+    margin: auto;
+}
+#catfish{
+    background: url("src/assets/images/catfish.jpeg") no-repeat center;
+    width: 595px;
+    height: 550px;
+    display: block;
+    margin: auto;
+}
+a{
+    color: rgb(253, 253, 186);
+    font-size: 25px;
+}
+@media (max-width: 768px) {
+    p{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    #riverbio{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    #map{
+        line-height: 30px;
+    }
+    .container {
+      height: 400px;
+      width: 90%;
+    }
+    #pic,
+    #dreamstream,
+    #cutbow,
+    #elevenmile,
+    #elevenmilecb,
+    #dsp,
+    #catfish{
+        max-width: 100%;
+        background-size: contain;
+    }
+    a{
+        font-size: 13px;
+    }
+    #map{
+        width: 50%;
+        padding-right: 0px;
+    }
+}

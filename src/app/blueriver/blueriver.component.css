@@ -1,0 +1,151 @@
+header{
+    background-color: rgb(43, 40, 43);
+    margin-bottom: 0;
+}
+body{
+    background-color: rgb(43, 40, 43);
+    color: white;
+    margin: 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#riverbio{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+#blueriver{
+    font-size: 50px;
+    font-weight: 900;
+    color: #7e7026;
+    margin-top: 0px;
+}
+#pic{
+    background: url("src/assets/images/blueriver1.JPG") no-repeat center;
+    width: 600px;
+    height: 450px;
+    display: block;
+    margin: auto;
+}
+#streamflow{
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 27px;
+    color: rgb(253, 253, 186);
+}
+#silverthorne{
+    background: url("src/assets/images/blueriver2.JPG") no-repeat center;
+    height: 550px;
+    width: 720px;
+    display: block;
+    margin: auto;
+}
+#lowerblue1{
+    background: url("src/assets/images/lowerblue1.JPG") no-repeat center;
+    height: 500px;
+    width: 630px;
+    display: block;
+    margin: auto;
+}
+#lowerblue2{
+    background: url("src/assets/images/lowerblue2.JPG") no-repeat center;
+    height: 480px;
+    width: 690px;
+    display: block;
+    margin: auto;
+}
+input{
+    font-weight: bold;
+    font-size: 15px;
+}
+a{
+    color: rgb(253, 253, 186);
+    font-size: 25px;
+}
+.container{
+  width: 80%;
+  height: 230px;
+  background: rgb(43, 40, 43);
+  margin: auto;
+  padding: 10px;
+}
+#flow{
+  width: 50%;
+  height: 230px;
+  font-size: 22px;
+  float: left;
+}
+#map{
+  width: 30%;
+  height: 230px;
+  line-height: 230px;
+  float: right;
+  margin: auto;
+  text-align: center;
+}
+@media(max-width: 912px){
+    p{
+        font-size: 18px;
+        margin-left: 0px;
+    }
+    #riverbio{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18px;
+    }
+    .container {
+      height: 350px;
+      max-width: 100%;
+    }
+    #streamflow{
+        font-size: 25px;
+    }
+    a{
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) {
+    p{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    #riverbio{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    .container {
+      height: 400px;
+      max-width: 100%;
+    }
+    #streamflow{
+        font-size: 20px;
+    }
+    #pic,
+    #silverthorne,
+    #lowerblue1,
+    #lowerblue2{
+        max-width: 100%;
+        background-size: contain;
+    }
+    a{
+        font-size: 13px;
+    }
+    #map{
+        width: 45%;
+        padding-right: 0px;
+    }
+    #streamflow{
+        width: 55%;
+    }
+}
+@media(max-width: 300px){
+    a{
+        font-size: 10px;
+    }
+}

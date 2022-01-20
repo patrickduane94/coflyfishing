@@ -1,0 +1,115 @@
+header{
+    background-color: rgb(43, 40, 43);
+    margin-bottom: 0;
+}
+body{
+    background-color: rgb(43, 40, 43);
+    color: white;
+    margin: 0 0;
+    font-family: 'Montserrat', sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    color: darkgreen;
+}
+#riverbio{
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+#arkansasriver{
+    font-size: 50px;
+    font-weight: 900;
+    color: #7e7026;
+    margin-top: 0px;
+}
+#pic{
+    background: url("src/assets/images/royalgorge.jpg") no-repeat center;
+    width: 750px;
+    height: 490px;
+    display: block;
+    margin: auto;
+}
+#streamflow{
+    font-weight: 900;
+    font-size: 27px;
+    line-height: 27px;
+    color: rgb(253, 253, 186);
+}
+input{
+    font-weight: bold;
+    font-size: 15px;
+}
+a{
+    color: rgb(253, 253, 186);
+    font-size: 25px;
+}
+.container{
+  width: 80%;
+  height: 140px;
+  background: rgb(43, 40, 43);
+  margin: auto;
+  padding: 10px;
+}
+#flow{
+  width: 50%;
+  height: 140px;
+  font-size: 22px;
+  float: left;
+}
+#map{
+  width: 50%;
+  height: 140px;
+  line-height: 140px;
+  float: right;
+  margin: auto;
+  text-align: center;
+}
+#pueblo{
+    background: url("src/assets/images/pueblo.jpg") no-repeat center;
+    width: 640px;
+    height: 640px;
+    display: block;
+    margin: auto;
+}
+@media (max-width: 768px) {
+    p{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    #riverbio{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    .container {
+      padding: 0px;
+      height: 250px;
+      width: 95%;
+    }
+    #pic,
+    #pueblo{
+        max-width: 100%;
+        background-size: contain;
+    }
+    a{
+        font-size: 13px;
+    }
+    #map{
+        width: 50%;
+        padding-right: 0px;
+    }
+    #streamflow{
+        font-size: 15px;
+    }
+  }
+  @media(max-width: 320px){
+      #arkansasriver{
+        font-size: 40px;
+      }
+      #map{
+          line-height: 25px;
+      }
+  }
